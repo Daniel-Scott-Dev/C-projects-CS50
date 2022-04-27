@@ -38,6 +38,7 @@ int main(void)
         }
         // printing lower part of hashes left side
         // for (int hashD = 1; hashD - 1 + row2 <= height + 1 - row2; hashD++) this did not work for both sides.
+        
         for (int hashD = height - 1; hashD >= row2; hashD--)
         {
             printf("#");
